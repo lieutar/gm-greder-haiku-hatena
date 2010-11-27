@@ -601,7 +601,7 @@
 
          var data = {
            keyword: keyword,
-           in_reply_to_status_id: entryid,
+           in_reply_to_status_id: entryId,
            status: status.value
          };
 
