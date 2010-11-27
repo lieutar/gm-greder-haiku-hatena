@@ -132,10 +132,10 @@
      withHTML(
        url,
        function(div){
-         var match = url.match(/(\/+)$/);
-         entry.id        = match[1];
+         var match = url.match(/([^\/]+)$/);
          var entry = {
-           usl:         url,
+           id:          match[1],
+           url:         url,
            user:        null,
            profileIcon: null,
            body:        null,
