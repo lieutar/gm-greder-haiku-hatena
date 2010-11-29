@@ -691,7 +691,7 @@
          entry.replies.forEach(
            function(a){
              var url = a.href;
-             a.href  = 'javascript:undefined';
+             a.href  = url;
              var branch = null;
              a.addEventListener(
                'click',
